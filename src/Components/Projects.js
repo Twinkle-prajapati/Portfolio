@@ -24,7 +24,7 @@ export default function Projects() {
 
           </Col>
           <Col lg={4} md={6} sm={12} xs={12}>
-          <Card1 image={image2} view='https://todo-list-using-hooks-twinkles-projects-416cf758.vercel.app/' source='https://github.com/Twinkle-prajapati/Todo_list_using_hooks' title='Todo List Using Hooks' desc='Built a To-Do List application using React.js and React Hooks, enabling users to add, edit, and manage tasks. The app features state management for a responsive and efficient experience.'/>
+          <Card1 image={image2} view='https://todo-list-using-hooks-git-main-twinkles-projects-416cf758.vercel.app/' source='https://github.com/Twinkle-prajapati/Todo_list_using_hooks' title='Todo List Using Hooks' desc='Built a To-Do List application using React.js and React Hooks, enabling users to add, edit, and manage tasks. The app features state management for a responsive and efficient experience.'/>
 
           </Col>
           <Col lg={4} md={6} sm={12} xs={12}>
