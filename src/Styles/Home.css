@@ -1,0 +1,109 @@
+/* Home.css */
+
+.hero-container {
+    position: relative;
+    height: 100vh;
+}
+
+.hero-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/image1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.custom-navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-brand-custom {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    margin-top: 10px;
+}
+
+.nav-custom {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.nav-link-custom {
+    color: white !important;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin: 6px;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-link-custom::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    bottom: 0;
+    left: 1;
+    transition: width 0.4s ease;
+    background: yellow;
+    position: absolute;
+
+}
+
+.nav-link-custom:hover::after {
+
+    width: 85%;
+}
+
+.bio-section{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: white;
+
+    & p{
+        font-size: 17px;
+    }
+}
+
+.bio-btn button{
+    padding: 8px 35px;
+    border: 1px solid white;
+}
+
+.btn-one{
+    background-color: yellow;
+    color: black;
+    font-weight: 500;
+}
+
+
+.btn-one:hover{
+    background-color: gray;
+    color: white;
+
+}
+.btn-two{
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+}
+.btn-two:hover{
+    background-color: gray;
+}
+
+@media (max-width: 600px) {
+    .bio-btn {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .bio-btn button {
+      margin-bottom: 10px;
+      width: 100%;
+    }
+  }
