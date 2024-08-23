@@ -13,7 +13,7 @@ export default function About() {
         <Row>
           <Col className='about1' lg={7}>
             <h1>Who Am I ?</h1>
-            <p><span style={{color:"yellow"}}>Hey Folks </span>, I am Twinkle Prajapati, an enthusiastic Front-End Fresher with six months of hands-on experience in <span style={{color:"yellow"}}> HTML, CSS, JavaScript, and React.</span></p>
+            <p><span style={{color:"yellow"}}>Hey Folks</span>, I am Twinkle Prajapati, an enthusiastic Front-End Fresher with six months of hands-on experience in <span style={{color:"yellow"}}> HTML, CSS, JavaScript, and React.</span></p>
             <p> I am passionate about building visually appealing and highly functional web applications. My journey in tech is driven by a strong curiosity and a commitment to continuous learning. I enjoy taking on new challenges and finding creative solutions to complex problems. Collaborating with others to create impactful and user-friendly applications is what motivates me every day. I'm always eager to learn new technologies and improve my skills to deliver the best results.</p>
           <Link to='contact'><button className='text-uppercase'>Contact Me</button></Link>  </Col>
           <Col className='about2 text-center' lg={4}>
