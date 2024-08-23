@@ -1,10 +1,4 @@
-html {
-    overflow-x: hidden;
-}
 
-body {
-    overflow: hidden; 
-}
 #about{
     background-color: black;
     color: white;
@@ -42,6 +36,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 40px;
 
 
     & img{

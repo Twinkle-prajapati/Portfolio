@@ -20,7 +20,7 @@ const Home = () => {
       <div className="home-background">
         <Navbar expand="lg" variant="light" className="navbar-custom">
           <Container>
-            <Navbar.Brand className="text-white mt-3">MY PORTFOLIO</Navbar.Brand>
+            <h3 className="text-white mt-3">MY PORTFOLIO</h3>
             <Navbar.Toggle aria-controls="navbar-basic" onClick={handleToggle} className="d-lg-none" />
             <Navbar.Collapse id="navbar-basic" className="d-none d-lg-flex">
               <Nav className="ms-auto">
@@ -81,7 +81,7 @@ const Home = () => {
 
         <div className="bio-section">
           <h1 className="text-center">I'm Twinkle Prajapati</h1>
-          <p className="text-center btn-desig">FRONT-END DEVELOPER</p>
+          <p className="text-center btn-desig">FRONT-END FRESHER</p>
           <div className="bio-btn text-center">
             <Link to="projects" smooth={true} duration={500}>
               <button className="mx-2 btn-one">PROJECTS</button>

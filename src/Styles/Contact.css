@@ -1,10 +1,4 @@
-html {
-  overflow-x: hidden;
-}
 
-body {
-  overflow: hidden;
-}
 .container-one{
     background-color: black;
     padding: 2.5rem;
@@ -76,3 +70,14 @@ body {
     background-color:rgb(98, 93, 93);
     color: white;
   }
+  @media (max-width: 568px) {
+    .container-one{
+      background-color: black;
+      padding: 1rem;
+  }
+  .contact-form-container {
+     padding: 20px 20px;
+
+   }
+
+    }

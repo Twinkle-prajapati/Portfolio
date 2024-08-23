@@ -13,8 +13,8 @@ export default function About() {
         <Row>
           <Col className='about1' lg={7}>
             <h1>Who Am I ?</h1>
-            <p>Hey Folks, I am Twinkle Prajapati, an enthusiastic Software Developer driven by a year-long journey of continuous learning and growth in the digital domain. </p>
-            <p>With a toolbox packed with JavaScript, ReactJs, NextJs, Node.js, MongoDB are just a few of the tools in my arsenal. I enjoy tackling the frontend's allure and the backend's robustness in web applications. But my commitment to excellence and collaborative spirit go beyond mere lines of code, shaping every project I undertake.</p>
+            <p><span style={{color:"yellow"}}>Hey Folks </span>, I am Twinkle Prajapati, an enthusiastic Front-End Fresher with six months of hands-on experience in <span style={{color:"yellow"}}> HTML, CSS, JavaScript, and React.</span></p>
+            <p> I am passionate about building visually appealing and highly functional web applications. My journey in tech is driven by a strong curiosity and a commitment to continuous learning. I enjoy taking on new challenges and finding creative solutions to complex problems. Collaborating with others to create impactful and user-friendly applications is what motivates me every day. I'm always eager to learn new technologies and improve my skills to deliver the best results.</p>
           <Link to='contact'><button className='text-uppercase'>Contact Me</button></Link>  </Col>
           <Col className='about2 text-center' lg={4}>
             <img src={image} alt='about' />
@@ -33,7 +33,7 @@ export default function About() {
                 <div className="time">Aug'23 - Jan'24</div>
               </div>
 
-              <div className="details">During my internship, I gained proficiency in HTML, CSS, JavaScript, and the basics of ReactJS. Leveraging this knowledge, I successfully developed my personal portfolio. This experience not only enhanced my technical skills but also provided me with practical insights into frontend development.</div>
+              <div className="details">During my internship, I gained proficiency in HTML, CSS, JavaScript, and ReactJS. Leveraging this knowledge, I successfully developed my personal portfolio. This experience not only enhanced my technical skills but also provided me with practical insights into frontend development.</div>
             </Card>
           </Col>
         </Row>
