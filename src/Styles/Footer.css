@@ -1,3 +1,10 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow: hidden;
+}
 .footer {
   background-color: #111;
   padding: 3.5rem 1rem;

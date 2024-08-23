@@ -1,7 +1,11 @@
 /* Home.css */
+html {
+  overflow-x: hidden;
+}
+
 body {
-    overflow-x: hidden;
-  }
+  overflow: hidden;
+}
 .home-container {
     position: relative;
     height: 100vh;
@@ -103,7 +107,7 @@ body {
     }
 
     .offcanvas-custom {
-      background: rgba(0, 0, 0, 10);
+      background: rgba(0, 0, 0, 0.8);
       width: 250px;
 
 
@@ -147,6 +151,7 @@ body {
     .navbar-custom .navbar-toggler {
       border-color: white;
       border: none;
+      display: block;
 
     }
 
