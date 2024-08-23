@@ -3,7 +3,8 @@
     padding: 2.5rem;
 }
 .contact-form-container {
-   width:600px;
+   width:100%;
+   max-width:600px;
    margin:0 auto;
 
     padding: 40px 40px;
